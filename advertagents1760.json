@@ -1,0 +1,169 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.0988692,
+                    51.51327,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Newbury, Bookseller, in St. Paul's Church-Yard",
+                "description": "[John Newberry or Newbery]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.5316539,
+                    50.7233211,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Score jun. Bookseller",
+                "description": "[Edward]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.106849,
+                    51.015452,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Norris, Printer",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.0036749,
+                    51.1281583,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Bailey, Bell-Founder"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.4412025,
+                    50.7113405,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Gould, Bookseller",
+                "description": "[Samuel]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.794472,
+                    51.0690547,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. E. Easton, Bookseller",
+                "description": "[Edward]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.9782161,
+                    51.4548528,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Collins",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.994828,
+                    51.3489069,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Burrough, Bookseller, and Silversmith",
+                "description": "[Thomas]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6445952,
+                    51.2093134,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. G. Cass, Stationer",
+                "description": "[George]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.320096,
+                    51.230751,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Edward Wiltshire",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.3512265,
+                    51.638025,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Bence, Bookseller",
+                "description": "[Joseph]"
+            }
+        }
+    ]
+}

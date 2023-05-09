@@ -1,0 +1,537 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.58791,
+                    51.454513,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bristol"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.644598,
+                    51.209347,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wells"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.718454,
+                    51.147427,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Glastonbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.003632,
+                    51.127889,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bridgwater"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.106849,
+                    51.015344,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Taunton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.481152,
+                    51.20428,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Minehead"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.819352,
+                    51.28442,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Axbridge"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.548249,
+                    51.371411,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pensford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.547886,
+                    51.1909,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Shepton-Mallet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.513101,
+                    51.088689,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Castle-Cary"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.452895,
+                    51.113338,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bruton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.514483,
+                    50.947822,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sherborne"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.416007,
+                    51.055688,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wincanton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.320096,
+                    51.230751,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Frome"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1808312,
+                    51.2046424,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Warminster"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.10467,
+                    51.182547,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Heytsbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1291129,
+                    51.093602,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hindon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.794472,
+                    51.068785,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Salisbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.862598,
+                    51.079018,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wilton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.4043509,
+                    50.9097004,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Southampton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.185772,
+                    51.256659,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Westbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.208853,
+                    51.319664,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Trowbridge"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.252502,
+                    51.345178,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bradford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.137629,
+                    51.370447,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Melksham"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.994828,
+                    51.348907,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Devizes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.727062,
+                    51.420073,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Marlborough"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.517995,
+                    51.412345,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hungerford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.3201957,
+                    51.4004452,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Newbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.9781303,
+                    51.452232,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Reading"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0013094,
+                    51.439277,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Calne"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.119516,
+                    51.461514,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chippenham"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.189674,
+                    51.431443,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Corsham"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.968243,
+                    51.718495,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cirencester"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.15818,
+                    51.639295,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tetbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.102834,
+                    51.586357,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Malmsbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.362019,
+                    51.528094,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sodbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.319382,
+                    51.46281,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Marshfield"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.351248,
+                    51.638025,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wotton-Underedge"
+            }
+        }
+    ]
+}

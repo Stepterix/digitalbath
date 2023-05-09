@@ -1,0 +1,331 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1102378,
+                    51.5139379,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Owen",
+                "description": "[William Owen and Son]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.0988054,
+                    51.5141747,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bladon",
+                "description": "[Samuel]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.0991809,
+                    51.5141263,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Robinson",
+                "description": "[George]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.098716,
+                    51.5132763,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Newberry and Carnan",
+                "description": "[Francis and Thomas]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5925413,
+                    51.4551756,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cadell",
+                "description": "[Thomas]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5923631,
+                    51.4552387,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Palmer",
+                "description": "[Elizabeth]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5478786,
+                    51.1909031,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Carey",
+                "description": "[James]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6448297,
+                    51.2095485,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cass",
+                "description": "[John]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.0045332,
+                    51.1278082,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cass",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.1086514,
+                    51.01502,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Anderdon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.533899,
+                    50.7186022,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Trewman"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5142683,
+                    50.9480924,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Goadby",
+                "description": "[Robert]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.797755,
+                    51.0679085,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Easton",
+                "description": "[Edward]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.4038256,
+                    50.8993004,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Baker",
+                "description": "[Thomas]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.9520272,
+                    52.4588468,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Swinney",
+                "description": "[Miles or Myles]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2496165,
+                    51.8627032,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Raikes",
+                "description": "[Robert]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.9942701,
+                    51.3493358,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Burrough",
+                "description": "[Thomas]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1183998,
+                    51.4615207,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Simpson",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7259462,
+                    51.4212505,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Smith and Harrold"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.3231139,
+                    51.401409,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lewis",
+                "description": "[Francis]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.9781303,
+                    51.4542645,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Carnan and co.",
+                "description": "[John]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0036104,
+                    51.4393333,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Rogers"
+            }
+        }
+    ]
+}

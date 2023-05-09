@@ -1,0 +1,1825 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.762978,
+                    51.16792,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Amesbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.637754,
+                    51.443993,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Ashton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.58791,
+                    51.454513,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bristol"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.85494,
+                    51.428867,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Avebury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.804108,
+                    51.130232,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Aishcot"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.819352,
+                    51.28442,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Axbridge"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.252502,
+                    51.345178,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bradford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.317202,
+                    51.409728,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Batheaston"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.250745,
+                    51.412558,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Box"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.003632,
+                    51.127889,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bridgwater"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.452895,
+                    51.113338,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bruton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.456816,
+                    51.690667,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Berkeley"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.666315,
+                    51.58625,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bourton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.299443,
+                    51.397643,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bathford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.732413,
+                    51.410973,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Backwell"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.655186,
+                    51.111572,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Baltonsbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.74692,
+                    51.328539,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Burrington"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.719179,
+                    51.327415,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Blagdon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.84198,
+                    51.226687,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Blackford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.958532,
+                    51.251365,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brent"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.684693,
+                    51.10075,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Butleigh"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.982321,
+                    51.557881,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brinkworth"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.761227,
+                    51.397285,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brockley"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.994118,
+                    51.236342,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Burham"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.502531,
+                    51.268533,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chilcompton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.004056,
+                    51.439384,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Calne"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.261508,
+                    51.439895,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Colerne"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.189674,
+                    51.431443,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Corsham"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.513101,
+                    51.088689,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Castlecary"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.119516,
+                    51.461514,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chippenham"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.612715,
+                    51.367003,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chew"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.968243,
+                    51.718495,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cirencester"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.078253,
+                    51.899386,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cheltenham"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.577467,
+                    51.276418,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chewton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.868685,
+                    51.150085,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Catcott"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.896788,
+                    51.154084,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chilton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.919747,
+                    51.157425,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cossington"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.856196,
+                    51.442108,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cliefden"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.647744,
+                    51.319782,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Compton-Martin"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.063413,
+                    51.639,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Crudwell"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.228923,
+                    51.49337,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Castlecomb"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.058322,
+                    51.59847,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Charlton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.041888,
+                    51.513053,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Christian-Malford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.86677,
+                    51.631748,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cricklade"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.994828,
+                    51.348907,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Devizes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.350518,
+                    51.678768,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Dursley"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.262204,
+                    51.586281,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Didmarton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.444893,
+                    51.182267,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Dunster"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.877799,
+                    51.152576,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Edington"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.705944,
+                    51.282343,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Everley"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.524723,
+                    51.498688,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Frenchay"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.320096,
+                    51.230751,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Frome"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.312307,
+                    51.726919,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Frocester"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.238156,
+                    51.864245,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gloucester"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.718454,
+                    51.147427,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Glastonbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.61939,
+                    51.304095,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Harptree"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.931789,
+                    51.237025,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Highbridge"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.989654,
+                    51.20328,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Huntspill"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.19808,
+                    51.355052,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Holt"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.10467,
+                    51.182547,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Heytesbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.516556,
+                    51.449184,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hanham"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.710398,
+                    51.632861,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Highworth"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.517995,
+                    51.412345,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hungerford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.682366,
+                    51.004774,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Ilchester"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.808941,
+                    50.986011,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kingsbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.675874,
+                    51.07382,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kingweston"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.884049,
+                    50.91859,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kingston"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.140876,
+                    51.496069,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kington Saint Michael"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.772874,
+                    51.344056,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Langford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.122928,
+                    51.415786,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lacock"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.977487,
+                    51.286842,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lavington"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.531531,
+                    51.507954,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lambourn"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.647401,
+                    51.431876,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Long-Ashton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.828719,
+                    51.038134,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Langport"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.763903,
+                    51.006151,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Longload"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.137629,
+                    51.370447,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Melksham"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.319382,
+                    51.46281,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Marshfield"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.727062,
+                    51.420073,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Marlborough"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.102834,
+                    51.586357,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Malmesbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.187054,
+                    51.704417,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Minchinhampton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.481152,
+                    51.20428,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Minehead"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.894315,
+                    51.225605,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mark"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.266995,
+                    51.090456,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mere"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.394459,
+                    51.237064,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mells"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.767086,
+                    50.975626,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Martock"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.816678,
+                    51.021293,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Muchelney"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.974033,
+                    51.006815,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Newport"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.378664,
+                    51.207243,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Nunny"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.548249,
+                    51.371411,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pensford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.014418,
+                    51.088412,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "North Petherton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.810525,
+                    50.948076,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "South Petherton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.76478,
+                    51.339277,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pewsey"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.308988,
+                    51.566752,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Petty France"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.969547,
+                    51.169581,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Puriton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.001055,
+                    51.179993,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pawlet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.446092,
+                    51.292017,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Radstock"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.596393,
+                    51.447578,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Ramsbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.234154,
+                    51.739143,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Rodborough"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.547886,
+                    51.1909,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Shepton Mallet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.217758,
+                    51.745734,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Stroud"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.082036,
+                    51.348645,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Seend"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.362019,
+                    51.528094,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sodbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.779718,
+                    51.555774,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Swindon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.794472,
+                    51.068785,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Salisbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.514483,
+                    50.947822,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sherborne"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.742919,
+                    51.124679,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Street"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.833026,
+                    51.140171,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Shapwick"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.757167,
+                    51.02684,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sutton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.733788,
+                    51.055111,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Somerton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.079312,
+                    51.522914,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Seagry"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.208853,
+                    51.319664,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Trowbridge"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.106849,
+                    51.015344,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Taunton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.15818,
+                    51.639295,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tetbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.644598,
+                    51.209347,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wells"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.416007,
+                    51.055688,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wincanton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.185772,
+                    51.256659,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Westbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7652,
+                    51.364344,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wrington"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.995468,
+                    50.997755,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wantage"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.559556,
+                    51.405679,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Whitchurch"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.909181,
+                    51.536319,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wootton-Basset"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.40123,
+                    51.593722,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wickwar"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.351248,
+                    51.638025,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wotton-Underedge"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.224499,
+                    50.978564,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wellington"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.774101,
+                    51.123706,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Walton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.691871,
+                    51.153318,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wick"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.934215,
+                    51.168027,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Woolavington"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7652,
+                    51.364344,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wrington"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.230859,
+                    51.720595,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Woodchester"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.818126,
+                    51.391906,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Yatton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.808941,
+                    50.986011,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kingsbury"
+            }
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5949489,
+                    51.4550503,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "PRINTING-OFFICE in Small-Street",
+                "description": "[Elizabeth Farley]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5912955,
+                    51.4555345,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Palmer",
+                "description": "[John]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5914672,
+                    51.4554911,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cadell",
+                "description": "[Thomas]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5887769,
+                    51.4548158,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Brown",
+                "description": "[Arthur or Abraham]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5942085,
+                    51.4558958,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Long",
+                "description": "[Jonathan]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5900798,
+                    51.4556499,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wilson",
+                "description": "[James]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1110316,
+                    51.5139086,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. WITHERS, Bookseller, at the Seven Stars in Fleet-Street",
+                "description": "[Edward]"
+            }
+        }
+    ]
+}

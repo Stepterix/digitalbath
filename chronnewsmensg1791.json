@@ -1,0 +1,75 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.3200102,
+                    51.2307241,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Frome"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.416007000000036,
+                    51.05568799999999,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wincanton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.452895,
+                    51.113338,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bruton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5131009,
+                    51.088689,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Castle Cary"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5271954,
+                    51.0347213,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cadbury"
+            }
+        }
+    ]
+}

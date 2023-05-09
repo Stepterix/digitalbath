@@ -1,0 +1,92 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5925413,
+                    51.4551873,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "T. Cadell, Bookseller",
+                "description": "[Thomas]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7261179,
+                    51.4205413,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "W. Gillmore, Bookseller",
+                "description": "[Walter]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0036265,
+                    51.4394771,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Isaac Parradise, Book-binder and Stationer"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.9937551,
+                    51.3489069,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "W. Leach, Shopkeeper",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.416007,
+                    51.055688,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "T. Slade"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5476982,
+                    51.1908899,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "T. Barton"
+            }
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.5316618,
+                    50.7232241,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Score, jun. Bookseller",
+                "description": "[Edward]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.106849,
+                    51.015344,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Norris",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.003632,
+                    51.127889,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Bailey, Bell-founder",
+                "description": ""
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.441181,
+                    50.7111639,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Gould, Bookseller",
+                "description": "[Samuel]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.794472,
+                    51.068785,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. E. Easton, Bookseller",
+                "description": "[Edward]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.9781303,
+                    51.4542645,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Collins",
+                "description": ""
+            }
+        }
+    ]
+}

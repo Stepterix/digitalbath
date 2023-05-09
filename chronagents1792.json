@@ -1,0 +1,638 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1254872,
+                    51.5086363,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. TAYLOR, in Warwick-Square, (where this Paper is regularly filed)",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.0989261,
+                    51.5141697,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chapter Coffee-house"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1025435,
+                    51.5140018,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "London Coffee-house"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.111509,
+                    51.513745,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Rainbow Coffee-house"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1095414,
+                    51.5141643,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Peele's Coffee-house"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1235782,
+                    51.5120593,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bedford Hotel"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1254592,
+                    51.5086426,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Spread-Eagle, Strand"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5952378,
+                    51.4559331,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Henry Brown, Quay-street"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5924957,
+                    51.455194,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Lloyd, Wine-street"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6000751,
+                    51.4526067,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Latham, College-Green",
+                "description": "[Moreley]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.3229422,
+                    51.3995884,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Fuller",
+                "description": "[Benjamin]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.181078,
+                    51.204629,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Davies",
+                "description": "[Jane?]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.3191948,
+                    51.2311541,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Crocker",
+                "description": "[P,]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.3203468,
+                    51.2312365,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Daniel",
+                "description": "[Peter]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.9947851,
+                    51.3496306,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Smith",
+                "description": "[T.]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.5419099,
+                    50.758531,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Jones",
+                "description": "[R.]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.312131,
+                    51.85762,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Miss Blome"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.717592,
+                    51.8108043,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Heath",
+                "description": "[Charles]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.391463,
+                    51.9489469,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "North",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7324924,
+                    51.4197103,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Harold",
+                "description": "[Edward]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7267401,
+                    51.4203272,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wells",
+                "description": "[Thomas]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0033526,
+                    51.4394032,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Stretch"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1226914,
+                    51.4615675,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Angel",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.9641231,
+                    51.718495,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Stevens",
+                "description": "[Timothy]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.351012,
+                    51.6381116,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bence",
+                "description": "[Joseph]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.5159351,
+                    51.4124521,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lye"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0746913,
+                    51.9010008,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Harward",
+                "description": "[Samuel]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1557767,
+                    51.6391885,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wilton",
+                "description": "[J.]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.15796,
+                    51.992265,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Dyde",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.4528145,
+                    50.6096077,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Love",
+                "description": "[John, died 1792. Proprietor Peter Delamotte]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7162409,
+                    51.1475865,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hewitt",
+                "description": "[Charles]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.987248,
+                    50.71505,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Toulmin",
+                "description": "[Joshua and/or Jane]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.097236,
+                    51.01556,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Norris",
+                "description": "[Thomas]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2002699,
+                    51.319664,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Small",
+                "description": "[Abraham]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.9996838,
+                    51.127889,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Symes",
+                "description": "[B. Simms]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.0011559,
+                    51.1302458,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Crandon",
+                "description": "[Jonathan/John]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6473445,
+                    51.2094545,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Evill",
+                "description": "[John]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6453018,
+                    51.2117228,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lewis",
+                "description": "[John Evill?]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.144923,
+                    51.027515,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pile",
+                "description": "[John]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5435945,
+                    51.1910076,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cary",
+                "description": "[James]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.305775,
+                    51.002536,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Miss Godwin"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.1831813,
+                    51.4810121,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bird",
+                "description": "[John]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7956307,
+                    51.0685018,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Easton",
+                "description": "[Edward or James]"
+            }
+        }
+    ]
+}

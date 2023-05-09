@@ -1,0 +1,290 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1410444,
+                    51.491362,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Taylor",
+                "description": "[William] 5, Warwick Square"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1254872,
+                    51.5086363,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mrs. Clinch",
+                "description": "Spread-Eagle Tavern, Strand"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1387376,
+                    51.5084251,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Debrett",
+                "description": "Picadilly"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5908059,
+                    51.4556837,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Norton",
+                "description": "[James] Wine-Street"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.595994,
+                    51.4538647,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Johnson",
+                "description": "[Samuel] Clare-Street"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5891836,
+                    51.4576749,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Fenley",
+                "description": "[John] Broad-Mead"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5903316,
+                    51.4511457,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Crouzet",
+                "description": "[John] Redcliff-Street"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6450565,
+                    51.2094696,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lewis",
+                "description": "[John Evill Lewis, printer]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.003632,
+                    51.127889,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Symes",
+                "description": "[Thomas Symes, scrivener]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.106849,
+                    51.015344,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Norris",
+                "description": "[Thomas Norris]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.533899,
+                    50.718412,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Trewman and Son",
+                "description": "[Robert and Robert, proprietors of Trewman's Exeter Flying Post]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7247446,
+                    51.4202871,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Harold",
+                "description": "[Edward?]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.994828,
+                    51.3489069,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Smith",
+                "description": "[Thomas]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1189739,
+                    51.461768,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Coombes",
+                "description": "[James Morris Coombs]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1846078,
+                    51.205597,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Yockney",
+                "description": "[Stephen]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.320096,
+                    51.230751,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Daniel",
+                "description": "[Peter]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.208617,
+                    51.3197914,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Spalding and Small",
+                "description": "[??? and Abraham]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5478806,
+                    51.1908731,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cary",
+                "description": "[James]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.0813327,
+                    53.9580902,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wilson & Co.",
+                "description": "[Thomas]"
+            }
+        }
+    ]
+}

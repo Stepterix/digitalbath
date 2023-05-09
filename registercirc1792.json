@@ -1,0 +1,182 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.3599435,
+                    51.3804073,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Printed by J. JOHNSON, No. 16, in STALL-STREET"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.3618182,
+                    51.3845702,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Marshall, Library",
+                "description": "[James]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.36301,
+                    51.3851703,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Russell, Library",
+                "description": "[[Edward]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.3608924,
+                    51.3828944,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Campbell, Library",
+                "description": "[John Cunningham Butler]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7938292,
+                    51.0682346,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. FELLOWS, Bookseller",
+                "description": "[Charles]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.5323995,
+                    50.7229272,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. WOOLMER, Printer",
+                "description": "[Shirley]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.1324286,
+                    52.6367124,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. PHILLIPS, Hungerford",
+                "description": "[Richard]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1195191,
+                    51.4618752,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. ANGELL, Chippenham",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6449558,
+                    51.2092544,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. EVILL, Wells",
+                "description": "[John]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.3218694,
+                    51.401409,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. KIMBY"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.9944203,
+                    51.3492889,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. DICKINSON"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1410493,
+                    51.4914225,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. TAYLER, in Warwick-Square",
+                "description": "[William]"
+            }
+        }
+    ]
+}

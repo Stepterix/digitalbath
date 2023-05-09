@@ -1,0 +1,705 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1277583,
+                    51.5073509,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "London"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.58791,
+                    51.454513,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bristol"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.1426565,
+                    50.3754565,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Plymouth"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.5301224,
+                    50.7224875,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Exeter"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.491207,
+                    50.902049,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tiverton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.106849,
+                    51.015344,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Taunton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.003632,
+                    51.127889,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bridgewater"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6445979,
+                    51.209347,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wells"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.547886,
+                    51.1909,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Shepton-Mallet"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.452895,
+                    51.113338,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bruton"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.320096,
+                    51.230751,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Frome"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.238156,
+                    51.8642449,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Gloucester"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.968243,
+                    51.718495,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cirencester"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.15818,
+                    51.639295,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tetbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.102834,
+                    51.586357,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Malmesbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.3510012,
+                    51.6379251,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wooton-under-Edge"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.15796,
+                    51.992265,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tewkesbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0794549,
+                    51.9017158,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cheltenham"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.715974,
+                    52.056398,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hereford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.221575,
+                    52.193636,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Worcester"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2496839,
+                    52.388596,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Kidderminster"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.316973,
+                    52.375539,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bewdley"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.424549,
+                    52.534455,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bridgnorth"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7553268,
+                    52.7073029,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Shrewsbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.890401,
+                    52.486243,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Birmingham"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.519693,
+                    52.406822,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Coventry"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.584927,
+                    52.282316,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Warwick"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.2577263000000585,
+                    51.7520209,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Oxford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.2879529,
+                    51.67078,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Abingdon"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.517995,
+                    51.412345,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Hungerford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.3231139,
+                    51.4021586,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Newbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.9781303,
+                    51.4542645,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Reading"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.794472,
+                    51.068785,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Salisbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1046695,
+                    51.1825471,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Heitsbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1809922,
+                    51.2047903,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Warminster"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.185772,
+                    51.256659,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Westbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0996464,
+                    51.2807201,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Tinehead"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.977487,
+                    51.286842,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Market-Lavington"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2525019,
+                    51.345178,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bradford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.208853,
+                    51.319664,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Trowbridge"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.994828,
+                    51.3489069,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Devizes"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1195157,
+                    51.461514,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chippenham"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.003884,
+                    51.44147,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Calne"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.727062,
+                    51.420073,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Marlborough"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.441181,
+                    50.7111639,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Dorchester"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.165353,
+                    50.856908,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Blandford"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.198083,
+                    51.0046,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Shaftsbury"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.987248,
+                    50.71505,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Pool"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.457621,
+                    50.6144279,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Weymouth"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5144829,
+                    50.947822,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Sherborne"
+            }
+        }
+    ]
+}

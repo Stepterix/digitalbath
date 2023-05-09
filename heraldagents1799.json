@@ -1,0 +1,300 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1410471,
+                    51.4913954,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "W. Taylor's, No. 5, Warwick-Square",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.0990191,
+                    51.5141727,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chapter Coffee-house"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1095307,
+                    51.514151,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Peele's Coffee-House"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6450592,
+                    51.2095453,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Lewis",
+                "description": "[John Evill?]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.547884,
+                    51.1909905,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Cary",
+                "description": "[James]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1195244,
+                    51.4617616,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Angel",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1189773,
+                    51.4618217,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Coombes",
+                "description": "[James Morris Coombs]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0034334,
+                    51.4373437,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Bailey",
+                "description": "[William Baily, Church Street]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7247553,
+                    51.4204544,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Harrold",
+                "description": "[Edward?]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1846185,
+                    51.2055029,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Yockney",
+                "description": "[[Stephen]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2084023,
+                    51.3196506,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Long",
+                "description": "[Thomas]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0747932,
+                    51.9010488,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Harward",
+                "description": "[Samuel, 4 Colonnade Bldgs]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.449581,
+                    51.46209,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "H. Walters",
+                "description": "[Henry]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.0813327,
+                    53.9581471,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wilson and Spence",
+                "description": "[Thomas and Robert]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.198674,
+                    53.147195,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Jones"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6266573,
+                    51.4532627,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Yearsley",
+                "description": "[Ann]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5938896,
+                    51.4545654,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. J. Norton at the Bush",
+                "description": "[John]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.238156,
+                    51.8642449,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "D. Cox, Chemist"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -4.908637,
+                    51.674043,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "H. Wilmot"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.1021498,
+                    51.014642,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Poole",
+                "description": "[John or Joseph]"
+            }
+        }
+    ]
+}

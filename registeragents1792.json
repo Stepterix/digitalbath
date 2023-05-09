@@ -1,0 +1,486 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5929123,
+                    51.4548523,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Cottle, Bookseller",
+                "description": "[Joseph]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5890827,
+                    51.4548176,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Sowerby"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2525019,
+                    51.345178,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Rennison, Post-master"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1195318,
+                    51.4618148,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Angell",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.1828487,
+                    51.4810321,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Bird, Bookseller",
+                "description": "[John, Castle Gate]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.0747987,
+                    51.9011199,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Harwood, Bookseller",
+                "description": "[Samuel, 4 Colonnade Bldgs]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.9943988,
+                    51.3491749,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Dickenson, Linen Draper\n"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -6.2599019,
+                    53.3457883,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Essex, Bookseller, Fleet-street\n",
+                "description": "[William?]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -3.5323969,
+                    50.7228678,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Woolmer, Bookseller\n",
+                "description": "[Shirley]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2376625,
+                    51.8645232,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Hough, Bookseller\n",
+                "description": "[John James]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.774465,
+                    53.400575,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Moseley, Bookseller\n",
+                "description": "[John. M.?]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.517995,
+                    51.412345,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Birch"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.6164627,
+                    51.4494872,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Baker"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.502526,
+                    51.415059,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Quarman, Auctioneer\n"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.1324207,
+                    52.6366564,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Phillips, Bookseller\n",
+                "description": "[Richard]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.137629,
+                    51.370447,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Bourne, Grocer\n"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.102834,
+                    51.586357,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mrs. Seales, Post-Office\n"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.2426305,
+                    53.4807593,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Robinson"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.7176027,
+                    51.8108441,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Heath, Bookseller\n",
+                "description": "[Charles]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.3231139,
+                    51.401409,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Kimber, Ironmonger\n"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.2577263,
+                    51.7520209,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Riccards, Bookseller\n",
+                "description": "[James Richards?]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.5144829,
+                    50.947822,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Hodges, Bookseller\n",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.7938167,
+                    51.0681327,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Fellows, Bookseller\n",
+                "description": "[Charles]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.4039968,
+                    50.898053,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Baker, Bookseller\n",
+                "description": "[Thomas]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.15818,
+                    51.639295,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Bence, Bookseller\n"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.208853,
+                    51.319664,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Mees, Grocer\n"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.4517375,
+                    50.6085002,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Love",
+                "description": "[John]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.310142,
+                    51.059771,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Burdon, Bookseller",
+                "description": "[Thomas or John]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -2.1809922,
+                    51.2049113,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mrs. Davis, Bookseller\n",
+                "description": "[Jane Davies?]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.0813327,
+                    53.9581913,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Wilson and Spence, Booksellers\n",
+                "description": "[Thomas and Robert]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1410498,
+                    51.4914488,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Mr. Taylor's, Warwick-square, Newgate-street\n",
+                "description": "[William]"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.0990164,
+                    51.5141526,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Chapter Coffee-House, Pater-Noster-Row"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.1095414,
+                    51.5142311,
+                    0
+                ]
+            },
+            "properties": {
+                "name": "Peele's Coffee-House, Fleet-street"
+            }
+        }
+    ]
+}
