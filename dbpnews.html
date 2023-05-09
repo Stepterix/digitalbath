@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="leaflet.css" />
+<link rel="stylesheet" href="dbp.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>	
+<script src="./leaflet-ajax-gh-pages/dist/leaflet.ajax.min.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Digital Bath Project - Eighteenth-Century Bath Newspapers' Distribution Networks</title>
+
+
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="top">
+
+	<div class="dropDown">
+		<b><a href="index.html">Digital Bath Project</a>: Eighteenth-Century Bath Newspapers' Distribution Networks</b>&nbsp;
+	</div>
+
+	<div class="topmenu">
+
+		<div class="dropDown">
+			<button class="dropBtn">Maps</button>
+			<div class="dropDown-content">
+<!--			<a href="dbpstreets.html">Street Finder (1818)</a>-->
+				<a href="#">Street Finder (1818)</a>
+				<a href="dbplodging.html">Lodging Houses</a>
+				<a href="dbpnews.html">Newspaper Distribution</a>
+			</div>
+		</div>
+
+		<div class="dropDown">
+			<button class="dropBtn">Search</button>
+			<div class="dropDown-content">
+				<a href="#">Search the database</a>
+				<a href="#">Search something else</a>
+			</div>
+		</div>
+
+		<div class="dropDown">
+		<button class="dropBtn">About</button>
+		<div class="dropDown-content">
+			<a href="#">About the DBP</a>
+			<a href="#">Contact</a>
+		</div>
+	
+	</div>
+	</div>
+</div>
+
+<div class="left">
+<div style="margin: 0 0.5em 0.5em 0.5em;">
+
+<form name="myform" action="checkboxes.asp" method="post" autocomplete="off">
+
+<input type="checkbox" name="showallnone" value="1" id="showallnone" checked onchange="if (showallnone.checked){showMarkers(); return false;} else {hideMarkers();
+return true;}"><a class="tooltip" href="#"><b> Show all/none</b></a><br>
+<br>
+<b><i>Bath Journal</i></b><br>
+<input type="checkbox" name="check_list" value="1" id="cja44" checked onchange="if (cja44.checked){mymap.addLayer(ja44); return false;} else {mymap.removeLayer(ja44);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('cja44').checked = true; mymap.addLayer(ja44); dropDown(lja44, 'lja44')"> <img src="ballicondarkblue.png" height="14" width="14"> Agents: 1744<span class="classic"><i>Bath Journal</i> (7th May 1744)</span></a><br>
+
+<input type="checkbox" name="check_list" value="2" id="cja76" checked onchange="if (cja76.checked){mymap.addLayer(ja76); return false;} else {mymap.removeLayer(ja76);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('cja76').checked = true; mymap.addLayer(ja76); dropDown(lja76, 'lja76')"> <img src="balliconblue.png" height="14" width="14"> Agents: 1776<span class="classic"><em>Bath Journal</em> (19th August 1776)</span></a><br>
+
+<input type="checkbox" name="check_list" value="3" id="cja92" checked onchange="if (cja92.checked){mymap.addLayer(ja92); return false;} else {mymap.removeLayer(ja92);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('cja92').checked = true; mymap.addLayer(ja92); dropDown(lja92, 'lja92')"> <img src="balliconcyan.png" height="14" width="14"> Agents: 1792<span class="classic"><em>Bath Journal</em> (9th January 1792)</span></a><br>
+
+<input type="checkbox" name="check_list" value="4" id="cja93" checked onchange="if (cja93.checked){mymap.addLayer(ja93); return false;} else {mymap.removeLayer(ja93);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('cja93').checked = true; mymap.addLayer(ja93); dropDown(lja93, 'lja93')"> <img src="ballicongreen.png" height="14" width="14"> Agents: 1793<span class="classic"><em>Bath Journal</em> (7th January 1793)</span></a><br>
+
+<input type="checkbox" name="check_list" value="5" id="cjn53" checked onchange="if (cjn53.checked){mymap.addLayer(jn53); return false;} else {mymap.removeLayer(jn53);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('cjn53').checked = true; mymap.addLayer(jn53); dropDown(ljn53, 'ljn53')"> <img src="diamondiconblue.png" height="16" width="16"> Newsmen: 1753<span class="classic"><em>The Bath and Bristol Guide: or Tradesman's and Traveller's Pocket-Companion</em> (Bath, 1753), p. 33.</span></a><br><br>
+
+
+<b><i>Bath Chronicle</i></b><br>
+<input type="checkbox" name="check_list" value="6" id="ccc60" checked onchange="if (ccc60.checked){mymap.addLayer(cc60); return false;} else {mymap.removeLayer(cc60);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('ccc60').checked = true; mymap.addLayer(cc60); dropDown(lcc60, 'lcc60')"> <img src="squareiconred.png" height="14" width="14"> Circulation: 1760<span class="classic"><em>Bath Chronicle</em> (25th December 1760)</span></a><br>
+
+<input type="checkbox" name="check_list" value="7" id="cca75" checked onchange="if (cca75.checked){mymap.addLayer(ca75); return false;} else {mymap.removeLayer(ca75);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('cca75').checked = true; mymap.addLayer(ca75); dropDown(lca75, 'lca75')"> <img src="balliconred.png" height="14" width="14"> Agents: 1775<span class="classic"><em>Bath Chronicle</em> (16th March 1775)</span></a><br>
+
+<input type="checkbox" name="check_list" value="8" id="cca92" checked onchange="if (cca92.checked){mymap.addLayer(ca92); return false;} else {mymap.removeLayer(ca92);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('cca92').checked = true; mymap.addLayer(ca92); dropDown(lca92, 'lca92')"> <img src="balliconorange.png" height="14" width="14"> Agents: 1792<span class="classic"><em>Bath Chronicle</em> (22nd March 1792)</span></a><br>
+
+<input type="checkbox" name="check_list" value="9" id="ccn70" checked onchange="if (ccn70.checked){mymap.addLayer(cn70); return false;} else {mymap.removeLayer(cn70);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('ccn70').checked = true; mymap.addLayer(cn70); dropDown(lcn70, 'lcn70')"> <img src="diamondiconpurple.png" height="16" width="16"> Newsmen: 1770<span class="classic"><em>The New Bath Guide; Or, Useful Pocket Companion</em> (Bath, 1770), p. 61.</span></a><br>
+
+<input type="checkbox" name="check_list" value="10" id="ccnsg91" checked onchange="if (ccnsg91.checked){mymap.addLayer(cnsg91); return false;} else {mymap.removeLayer(cnsg91); return true;}"><a class="tooltip" href="#" onclick="document.getElementById('ccnsg91').checked = true; mymap.addLayer(cnsg91); dropDown(lcnsg91, 'lcnsg91')"> <img src="diamondiconred.png" height="16" width="16"> Newsmen: 1791 Stephen Gay`s Route<span class="classic"><em>Bath Chronicle</em> (27th January 1791)</span></a><br>
+
+<input type="checkbox" name="check_list" value="11" id="ccnch91" checked onchange="if (ccnch91.checked){mymap.addLayer(cnch91); return false;} else {mymap.removeLayer(cnch91); return true;}"><a class="tooltip" href="#" onclick="document.getElementById('ccnch91').checked = true; mymap.addLayer(cnch91); dropDown(lcnch91, 'lcnch91')"> <img src="diamondiconorange.png" height="16" width="16"> Newsmen: 1791 Working for Charles Hewitt of Glastonbury<span class="classic"><em>Bath Chronicle</em> (27th January 1791)</span></a><br>
+
+<input type="checkbox" name="check_list" value="12" id="ccn99" checked onchange="if (ccn99.checked){mymap.addLayer(cn99); return false;} else {mymap.removeLayer(cn99);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('ccn99').checked = true; mymap.addLayer(cn99); dropDown(lcn99, 'lcn99')"> <img src="diamondiconyellow.png" height="16" width="16"> Newsmen: 1799<span class="classic"><em>The New Bath Guide; or, Useful Pocket Companion</em> (Bath, 1799), p. 80.</span></a><br><br>
+
+
+<b><i>Bath Advertiser</i></b><br>
+<input type="checkbox" name="check_list" value="13" id="caa55" checked onchange="if (caa55.checked){mymap.addLayer(aa55); return false;} else {mymap.removeLayer(aa55);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('caa55').checked = true; mymap.addLayer(aa55); dropDown(laa55, 'laa55')"> <img src="ballicongrey.png" height="14" width="14"> Agents: 1755<span class="classic"><em>Bath Advertiser</em> (25th October 1755)</span></a><br>
+
+<input type="checkbox" name="check_list" value="14" id="caa60" checked onchange="if (caa60.checked){mymap.addLayer(aa60); return false;} else {mymap.removeLayer(aa60);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('caa60').checked = true; mymap.addLayer(aa60); dropDown(laa60, 'laa60')"> <img src="balliconwhite.png" height="14" width="14"> Agents: 1760<span class="classic"><em>Bath Advertiser</em> (25th September 1760)</span></a><br><br>
+
+
+<b><i>Farley`s Bath Journal</i></b><br>
+<input type="checkbox" name="check_list" value="15" id="cfa56" checked onchange="if (cfa56.checked){mymap.addLayer(fa56); return false;} else {mymap.removeLayer(fa56);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('cfa56').checked = true; mymap.addLayer(fa56); dropDown(lfa56, 'lfa56')"> <img src="balliconblack.png" height="14" width="14"> Agents: 1756<span class="classic"><em>Farley`s Bath Journal</em> (11th October 1756)</span></a><br><br>
+
+
+<b><i>Bath Herald</i></b><br>
+<input type="checkbox" name="check_list" value="16" id="cha92" checked onchange="if (cha92.checked){mymap.addLayer(ha92); return false;} else {mymap.removeLayer(ha92);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('cha92').checked = true; mymap.addLayer(ha92); dropDown(lha92, 'lha92')"> <img src="balliconpurple.png" height="14" width="14"> Agents: 1792<span class="classic"><em>Bath Herald</em> (3rd March 1792)</span></a><br>
+
+<input type="checkbox" name="check_list" value="17" id="cha99" checked onchange="if (cha99.checked){mymap.addLayer(ha99); return false;} else {mymap.removeLayer(ha99);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('cha99').checked = true; mymap.addLayer(ha99); dropDown(lha99, 'lha99')"> <img src="balliconviolet.png" height="14" width="14"> Agents: 1799<span class="classic"><em>Bath Herald</em> (28th December 1799)</span></a><br><br>
+
+
+<b><i>Bath Register</i></b><br>
+<input type="checkbox" name="check_list" value="18" id="cra92" checked onchange="if (cra92.checked){mymap.addLayer(ra92); return false;} else {mymap.removeLayer(ra92);
+return true;}"><a class="tooltip" href="#" onclick="document.getElementById('cra92').checked = true; mymap.addLayer(ra92); dropDown(lra92, 'lra92')"> <img src="balliconyellow.png" height="14" width="14"> Agents: 1792<span class="classic"><em>Bath Register</em> (10th March 1792)</span></a><br><br><br><br><br>
+
+</form>
+
+</div>
+</div>
+
+<div class="map" id="mapid">
+	
+</div>
+
+
+<script>
+	var mymap = L.map('mapid', {
+		zoomSnap: 0.25,		
+		zoomDelta: 0.5,
+		wheelPxPerZoomLevel: 200,
+		}).setView([51.38, -2.37], 9);
+//	var controlLayers = L.control.layers().addTo(mymap);
+
+     
+	var RedIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'balliconred.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var redIcon = new RedIcon();
+
+	var OrangeIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'balliconorange.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var orangeIcon = new OrangeIcon();
+
+	var YellowIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'balliconyellow.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var yellowIcon = new YellowIcon();
+
+        var GreenIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'ballicongreen.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var greenIcon = new GreenIcon();
+
+	var CyanIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'balliconcyan.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var cyanIcon = new CyanIcon();
+
+
+	var BlueIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'balliconblue.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var blueIcon = new BlueIcon();
+
+	var DarkblueIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'ballicondarkblue.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var darkblueIcon = new DarkblueIcon();
+
+	var PurpleIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'balliconpurple.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var purpleIcon = new PurpleIcon();
+
+	var VioletIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'balliconviolet.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var violetIcon = new VioletIcon();
+
+	var BlackIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'balliconblack.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var blackIcon = new BlackIcon();
+
+	var GreyIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'ballicongrey.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var greyIcon = new GreyIcon();
+
+	var WhiteIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'balliconwhite.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var whiteIcon = new WhiteIcon();
+
+	var BluedIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'diamondiconblue.png',
+		    iconSize: [20, 20],
+		    iconAnchor: [10, 10]	 
+            }
+         });
+         var bluedIcon = new BluedIcon();
+
+	var OrangedIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'diamondiconorange.png',
+		    iconSize: [20, 20],
+		    iconAnchor: [10, 10]	 
+            }
+         });
+         var orangedIcon = new OrangedIcon();
+
+	var PurpledIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'diamondiconpurple.png',
+		    iconSize: [20, 20],
+		    iconAnchor: [10, 10]	 
+            }
+         });
+         var purpledIcon = new PurpledIcon();
+
+	var GreendIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'diamondicongreen.png',
+		    iconSize: [20, 20],
+		    iconAnchor: [10, 10]	 
+            }
+         });
+         var greendIcon = new GreendIcon();
+
+	var ReddIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'diamondiconred.png',
+		    iconSize: [20, 20],
+		    iconAnchor: [10, 10]	 
+            }
+         });
+         var reddIcon = new ReddIcon();
+
+	var YellowdIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'diamondiconyellow.png',
+		    iconSize: [20, 20],
+		    iconAnchor: [10, 10]	 
+            }
+         });
+         var yellowdIcon = new YellowdIcon();
+
+
+	var BluesIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'squareiconblue.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var bluesIcon = new BluesIcon();
+
+	var OrangesIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'squareiconorange.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var orangesIcon = new OrangesIcon();
+
+	var PurplesIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'squareiconpurple.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var purplesIcon = new PurplesIcon();
+
+	var GreensIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'squareicongreen.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var greensIcon = new GreensIcon();
+
+	var RedsIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'squareiconred.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var redsIcon = new RedsIcon();
+
+	var YellowsIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'squareiconyellow.png',
+		    iconSize: [18, 18],
+		    iconAnchor: [9, 9]	 
+            }
+         });
+         var yellowsIcon = new YellowsIcon();
+
+
+	var StarIcon = L.Icon.extend({
+            options: {
+            	    iconUrl: 'staricongold.png',
+		    iconSize: [36, 36],
+		    iconAnchor: [18, 18]	 
+            }
+         });
+         var starIcon = new StarIcon();
+
+
+
+
+var maptileLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 19,
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+}).addTo(mymap);
+
+
+
+var lja44 = new Array;
+var ja44 = new L.GeoJSON.AJAX("./journalagents1744.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name + '</br>' + feature.properties.description);
+	    layer.setIcon(layer.options.icon = darkblueIcon);
+	var coOrds = layer.getLatLng();
+
+	lja44.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+
+ja44.addTo(mymap);
+//controlLayers.addOverlay(ja44, 'Agents: <i>Bath Journal</i> (7th May 1744)');
+
+var lja76 = new Array;
+var ja76 = new L.GeoJSON.AJAX("./journalagents1776.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name + '</br>' + feature.properties.description);
+	    layer.setIcon(layer.options.icon = blueIcon);
+	var coOrds = layer.getLatLng();
+
+	lja76.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+ja76.addTo(mymap);
+//controlLayers.addOverlay(ja76, 'Agents: <i>Bath Journal</i> (19th August 1776)');
+
+var lja92 = new Array;
+var ja92 = new L.GeoJSON.AJAX("./journalagents1792.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name + '</br>' + feature.properties.description);
+	    layer.setIcon(layer.options.icon = cyanIcon);
+	var coOrds = layer.getLatLng();
+
+	lja92.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+ja92.addTo(mymap);
+//controlLayers.addOverlay(ja92, 'Agents: <i>Bath Journal</i> (9th January 1792)');
+
+var lja93 = new Array;
+var ja93 = new L.GeoJSON.AJAX("./journalagents1793.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name + '</br>' + feature.properties.description);
+	    layer.setIcon(layer.options.icon = greenIcon);
+	var coOrds = layer.getLatLng();
+
+	lja93.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+ja93.addTo(mymap);
+//controlLayers.addOverlay(ja93, 'Agents: <i>Bath Journal</i> (7th January 1793)');
+
+var ljn53 = new Array;
+var jn53 = new L.GeoJSON.AJAX("./journalnewsmen1753.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name);
+	    layer.setIcon(layer.options.icon = bluedIcon);
+	var coOrds = layer.getLatLng();
+
+	ljn53.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+jn53.addTo(mymap);
+//controlLayers.addOverlay(jn53, 'Newsmen: <i>Bath Journal</i> (1753)');
+
+var lcc60 = new Array;
+var cc60 = new L.GeoJSON.AJAX("./chroncirc1760.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name);
+	    layer.setIcon(layer.options.icon = redsIcon);
+	var coOrds = layer.getLatLng();
+
+	lcc60.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+cc60.addTo(mymap);
+//controlLayers.addOverlay(cc60, 'Circulation: <i>Bath Chronicle</i> (1760)');
+
+var lca75 = new Array;
+var ca75 = new L.GeoJSON.AJAX("./chronagents1775.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name + '</br>' + feature.properties.description);
+	    layer.setIcon(layer.options.icon = redIcon);
+	var coOrds = layer.getLatLng();
+
+	lca75.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+ca75.addTo(mymap);
+//controlLayers.addOverlay(ca75, 'Agents: <i>Bath Chronicle</i> (16th March 1775)');
+
+var lca92 = new Array;
+var ca92 = new L.GeoJSON.AJAX("./chronagents1792.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name + '</br>' + feature.properties.description);
+	    layer.setIcon(layer.options.icon = orangeIcon);
+	var coOrds = layer.getLatLng();
+
+	lca92.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+ca92.addTo(mymap);
+//controlLayers.addOverlay(ca92, 'Agents: <i>Bath Chronicle</i> (22nd March 1792)');
+
+var lcn70 = new Array;
+var cn70 = new L.GeoJSON.AJAX("./chronnewsmen1770.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name);
+	    layer.setIcon(layer.options.icon = purpledIcon);
+	var coOrds = layer.getLatLng();
+
+	lcn70.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+cn70.addTo(mymap);
+//controlLayers.addOverlay(cn70, 'Newsmen: <i>Bath Chronicle</i> (1770)');
+
+var lcnsg91 = new Array;
+var cnsg91 = new L.GeoJSON.AJAX("./chronnewsmensg1791.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name);
+	    layer.setIcon(layer.options.icon = reddIcon);
+	var coOrds = layer.getLatLng();
+
+	lcnsg91.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+cnsg91.addTo(mymap);
+//controlLayers.addOverlay(cnsg91, 'Newsmen: Stephen Gay`s Route <i>Bath Chronicle</i> (27th January 1791)');
+
+
+var lcnch91 = new Array;
+var cnch91 = new L.GeoJSON.AJAX("./chronnewsmench1791.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name);
+	    layer.setIcon(layer.options.icon = orangedIcon);
+	var coOrds = layer.getLatLng();
+
+	lcnch91.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+cnch91.addTo(mymap);
+//controlLayers.addOverlay(cnch91, 'Newsmen: Charles Hewitt of Glastobury for <i>Bath Chronicle</i> (27th January 1791)');
+
+
+var lcn99 = new Array;
+var cn99 = new L.GeoJSON.AJAX("./chronnewsmen1799.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name);
+	    layer.setIcon(layer.options.icon = yellowdIcon);
+	var coOrds = layer.getLatLng();
+
+	lcn99.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+cn99.addTo(mymap);
+//controlLayers.addOverlay(cn99, 'Newsmen: <i>Bath Chronicle</i> (1799)');
+
+
+var laa55 = new Array;
+var aa55 = new L.GeoJSON.AJAX("./advertagents1755.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name + '</br>' + feature.properties.description);
+	    layer.setIcon(layer.options.icon = greyIcon);
+	var coOrds = layer.getLatLng();
+
+	laa55.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+aa55.addTo(mymap);
+//controlLayers.addOverlay(aa55, 'Agents: <i>Bath Advertiser</i> (25th October 1755)');
+
+var laa60 = new Array;
+var aa60 = new L.GeoJSON.AJAX("./advertagents1760.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name + '</br>' + feature.properties.description);
+	    layer.setIcon(layer.options.icon = whiteIcon);
+	var coOrds = layer.getLatLng();
+
+	laa60.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+aa60.addTo(mymap);
+//controlLayers.addOverlay(aa60, 'Agents: <i>Bath Advertiser</i> (25th September 1760)');
+
+var lfa56 = new Array;
+var fa56 = new L.GeoJSON.AJAX("./farleyagents1756.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name + '</br>' + feature.properties.description);
+	    layer.setIcon(layer.options.icon = blackIcon);
+	var coOrds = layer.getLatLng();
+
+	lfa56.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+fa56.addTo(mymap);
+//controlLayers.addOverlay(fa56, 'Agents: <i>Farley`s Bath Journal</i> (11th October 1756)');
+
+var lha92 = new Array;
+var ha92 = new L.GeoJSON.AJAX("./heraldagents1792.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name + '</br>' + feature.properties.description);
+	    layer.setIcon(layer.options.icon = purpleIcon);
+	var coOrds = layer.getLatLng();
+
+	lha92.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+ha92.addTo(mymap);
+//controlLayers.addOverlay(ha92, 'Agents: <i>Bath Herald</i> (3rd March 1792)');
+
+var lha99 = new Array;
+var ha99 = new L.GeoJSON.AJAX("./heraldagents1799.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name + '</br>' + feature.properties.description);
+	    layer.setIcon(layer.options.icon = violetIcon);
+	var coOrds = layer.getLatLng();
+
+	lha99.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+	}
+	});
+
+ha99.addTo(mymap);
+//controlLayers.addOverlay(ha99, 'Agents: <i>Bath Herald</i> (28th December 1799)');
+
+var lra92 = new Array;
+var ra92 = new L.GeoJSON.AJAX("./registeragents1792.json", {onEachFeature:
+	function (feature, layer) {
+	    layer.bindPopup(feature.properties.name + '</br>' + feature.properties.description);
+	    layer.setIcon(layer.options.icon = yellowIcon);
+	var coOrds = layer.getLatLng();
+
+	lra92.push({
+		"name": feature.properties.name,
+		"mlat": coOrds.lat,
+		"mlong": coOrds.lng,
+		});
+
+	}
+	});
+
+ra92.addTo(mymap);
+//controlLayers.addOverlay(ra92, 'Agents: <i>Bath Register</i> (10th March 1792)');
+
+
+var markerBath = L.marker([51.38, -2.36], {icon: starIcon}).addTo(mymap);
+
+
+
+function hideMarkers() {
+var layerIndex=0;
+mymap.eachLayer(function (layer) {
+
+if (layerIndex > 0)
+ {mymap.removeLayer(layer);};
+layerIndex++;
+});
+var markerBath = L.marker([51.38, -2.36], {icon: starIcon}).addTo(mymap);
+for (i = 0; i < document.myform.check_list.length; i++)
+	document.myform.check_list[i].checked = false ;
+
+}
+
+
+
+function showMarkers() {
+
+for (i = 0; i < document.myform.check_list.length; i++){
+
+	document.myform.check_list[i].checked = true ;
+
+}
+mymap.addLayer(ja44);
+mymap.addLayer(ja76);
+mymap.addLayer(ja92);
+mymap.addLayer(ja93);
+mymap.addLayer(jn53);
+mymap.addLayer(cc60);
+mymap.addLayer(ca75);
+mymap.addLayer(ca92);
+mymap.addLayer(cn70);
+mymap.addLayer(cnsg91);
+mymap.addLayer(cnch91);
+mymap.addLayer(cn99);
+mymap.addLayer(aa55);
+mymap.addLayer(aa60);
+mymap.addLayer(fa56);
+mymap.addLayer(ha92);
+mymap.addLayer(ha99);
+mymap.addLayer(ra92);
+var markerBath = L.marker([51.38, -2.36], {icon: starIcon}).addTo(mymap);
+
+}
+
+
+mymap.on('popupopen', function(centerMarker) {
+        var cM = mymap.project(centerMarker.popup._latlng);
+        mymap.setView(mymap.unproject(cM),mymap.getZoom(), {animate: true});
+    });
+
+function dropDown(arry, arrayName) {
+document.getElementById('innie').innerHTML = '';
+document.getElementById('poplist').style.display='block';
+for (i=0; i<arry.length; i++)
+	{
+var link=document.createElement("a");
+var br=document.createElement("br");
+link.appendChild(document.createTextNode(arry[i]["name"]));
+link.name = i;
+link.className = "tooltip";
+link.href = '#';
+link.onclick = function(){
+
+ mymap.setView([arry[this.name]["mlat"], arry[this.name]["mlong"]], 16, {animate: true});	
+
+};
+document.getElementById('innie').appendChild(link);
+
+
+document.getElementById('innie').appendChild(br);
+	};
+}
+
+//  mymap.setView([arry[i]["mlat"], arry[i]["mlong"]], 16, {animate: true});
+
+
+//window.onload = init();
+
+
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-84332040-1', 'auto');
+  ga('send', 'pageview');	
+
+</script>
+
+
+</div>
+</body>
+</html>

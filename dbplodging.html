@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="leaflet.css" />
+<link rel="stylesheet" href="dbp.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+<link rel="icon" type="image/png" href="favicon.png" />
+<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>	
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Digital Bath Project - Lodging Houses</title>
+
+
+</head>
+
+<body>
+<div class="wrapper">
+	<div class="top">
+
+	<div class="dropDown">
+		<b><a href="index.html">Digital Bath Project</a>: Lodging and Boarding Houses</b>&nbsp;
+	</div>
+
+	<div class="topmenu">
+
+		<div class="dropDown">
+			<button class="dropBtn">Maps</button>
+			<div class="dropDown-content">
+<!--			<a href="dbpstreets.html">Street Finder (1818)</a>-->
+				<a href="#">Street Finder (1818)</a>
+				<a href="dbplodging.html">Lodging Houses</a>
+				<a href="dbpnews.html">Newspaper Distribution</a>
+			</div>
+		</div>
+
+		<div class="dropDown">
+			<button class="dropBtn">Search</button>
+			<div class="dropDown-content">
+				<a href="#">Search the database</a>
+				<a href="#">Search something else</a>
+			</div>
+		</div>
+
+		<div class="dropDown">
+		<button class="dropBtn">About</button>
+		<div class="dropDown-content">
+			<a href="#">About the DBP</a>
+			<a href="#">Contact</a>
+		</div>
+	
+	</div>
+	</div>
+</div>
+
+<div class="left">
+
+<div style="margin: 0 1em 0.5em 1.3em;">
+<b>Year </b><i class="material-icons md-18" title="The 1783, 1786 and 1806 editions contain the same lists as those in the previous years' editions. The 1798 and 1799 editions contain the same list as the 1797 edition." style="font-size:18px; color:purple;">info</i>
+<div class="barRadio" style="float: right;">
+<form name="barForm" autocomplete="off">
+<input type="radio" name="bars" id="numHouses" value="numHouses" onclick="clickHouses()" checked>
+<label for="numHouses"><i class="material-icons" title="Number of houses" style="font-size:20px;">home</i></label>
+<input type="radio" name="bars" id="mfRatio" value="mfRatio" onclick="clickMF()">
+<label for="mfRatio"><i class="material-icons" title="Male/female ratio of housekeepers" style="font-size:20px;">wc</i></label></form>
+</div></div>
+
+
+<form name="yearForm" autocomplete="off">
+	<input type="radio" name="year" id="1773" value="1773" onclick="clickYear(lodgings1773, lodgingdb1773)" checked><label for="1773"> 1773: <div id="chart1773a"></div><div id="chart1773b"></div></label><br>
+	<input type="radio" name="year" id="1780" value="1780" onclick="clickYear(lodgings1780, lodgingdb1780)"><label for="1780"> 1780: <div id="chart1780a"></div><div id="chart1780b"></div></label><br>
+	<input type="radio" name="year" id="1782" value="1782" onclick="clickYear(lodgings1782, lodgingdb1782)"><label for="1782"> 1782: <div id="chart1782a"></div><div id="chart1782b"></div></label><br>	
+	<input type="radio" name="year" id="1784" value="1784" onclick="clickYear(lodgings1784, lodgingdb1784)"><label for="1784"> 1784: <div id="chart1784a"></div><div id="chart1784b"></div></label><br>	
+	<input type="radio" name="year" id="1785" value="1785" onclick="clickYear(lodgings1785, lodgingdb1785)"><label for="1785"> 1785: <div id="chart1785a"></div><div id="chart1785b"></div></label><br>
+	<input type="radio" name="year" id="1787" value="1787" onclick="clickYear(lodgings1787, lodgingdb1787)"><label for="1787"> 1787: <div id="chart1787a"></div><div id="chart1787b"></div></label><br>
+	<input type="radio" name="year" id="1788" value="1788" onclick="clickYear(lodgings1788, lodgingdb1788)"><label for="1788"> 1788: <div id="chart1788a"></div><div id="chart1788b"></div></label><br>
+	<input type="radio" name="year" id="1789" value="1789" onclick="clickYear(lodgings1789, lodgingdb1789)"><label for="1789"> 1789: <div id="chart1789a"></div><div id="chart1789b"></div></label><br>
+	<input type="radio" name="year" id="1790" value="1790" onclick="clickYear(lodgings1790, lodgingdb1790)"><label for="1790"> 1790: <div id="chart1790a"></div><div id="chart1790b"></div></label><br>
+	<input type="radio" name="year" id="1791" value="1791" onclick="clickYear(lodgings1791, lodgingdb1791)"><label for="1791"> 1791: <div id="chart1791a"></div><div id="chart1791b"></div></label><br>
+	<input type="radio" name="year" id="1792" value="1792" onclick="clickYear(lodgings1792, lodgingdb1792)"><label for="1792"> 1792: <div id="chart1792a"></div><div id="chart1792b"></div></label><br>
+	<input type="radio" name="year" id="1793" value="1793" onclick="clickYear(lodgings1793, lodgingdb1793)"><label for="1793"> 1793: <div id="chart1793a"></div><div id="chart1793b"></div></label><br>
+	<input type="radio" name="year" id="1794" value="1794" onclick="clickYear(lodgings1794, lodgingdb1794)"><label for="1794"> 1794: <div id="chart1794a"></div><div id="chart1794b"></div></label><br>
+	<input type="radio" name="year" id="1795" value="1795" onclick="clickYear(lodgings1795, lodgingdb1795)"><label for="1795"> 1795: <div id="chart1795a"></div><div id="chart1795b"></div></label><br>
+	<input type="radio" name="year" id="1796" value="1796" onclick="clickYear(lodgings1796, lodgingdb1796)"><label for="1796"> 1796: <div id="chart1796a"></div><div id="chart1796b"></div></label><br>	
+	<input type="radio" name="year" id="1797" value="1797" onclick="clickYear(lodgings1797, lodgingdb1797)"><label for="1797"> 1797: <div id="chart1797a"></div><div id="chart1797b"></div></label><br>
+	<input type="radio" name="year" id="1800" value="1800" onclick="clickYear(lodgings1800, lodgingdb1800)"><label for="1800"> 1800: <div id="chart1800a"></div><div id="chart1800b"></div></label><br>
+	<input type="radio" name="year" id="1802" value="1802" onclick="clickYear(lodgings1802, lodgingdb1802)"><label for="1802"> 1802: <div id="chart1802a"></div><div id="chart1802b"></div></label><br>
+	<input type="radio" name="year" id="1803" value="1803" onclick="clickYear(lodgings1803, lodgingdb1803)"><label for="1803"> 1803: <div id="chart1803a"></div><div id="chart1803b"></div></label><br>
+	<input type="radio" name="year" id="1805" value="1805" onclick="clickYear(lodgings1805, lodgingdb1805)"><label for="1805"> 1805: <div id="chart1805a"></div><div id="chart1805b"></div></label><br>
+	<input type="radio" name="year" id="1807" value="1807" onclick="clickYear(lodgings1807, lodgingdb1807)"><label for="1807"> 1807: <div id="chart1807a"></div><div id="chart1807b"></div></label><br>
+
+</div>
+
+<div class="map" id="map">
+	
+</div>
+
+<div id="key" style="position: absolute; z-index: 22; left: 223px; top: 130px;  text-align: left; padding: 4px; background-color: rgba(240,248,255,0.95); overflow: auto; border: 1px solid #000022; box-shadow: 0px 8px 16px 0px rgba(134,197,216,0.4); display: block;">
+	<b>Houses per street<br>
+	<img src="barchartyellow.png" height="12" width="20"> 1-5<br>
+	<img src="barchartorange1.png" height="12" width="20"> 6-10<br>
+	<img src="barchartorange2.png" height="12" width="20"> 11-15<br>
+	<img src="barchartorange3.png" height="12" width="20"> 16-20<br>
+	<img src="barchartred.png" height="12" width="20"> 20+<br></b>
+	</div>
+
+
+<div id="showDB" style="position: absolute; z-index: 22; width: 425px; top: 40px; right: 0px; bottom: 0px;  text-align: left; padding: 18px; background-color: rgba(230,248,255,0.9); overflow: auto; border: 1px solid #000022; display: none;"></div>
+<div id="closer" style="position: absolute; z-index: 23; top: 45px; right: 14px; background-color: rgba(230,248,255,0.9); display: none;">
+<a href="#" onclick="hidedbDiv()" style="font-size:22px;"><i class="material-icons" style="font-size:22px;">cancel</i></a></div>
+
+
+
+
+
+<div id="sourceInfo" style="width: 50em; height: 1.2em; position: absolute; z-index: 15; top: 30; right: 0; bottom: 0; left: 0; margin: auto; text-align: left; padding: 4px; background-color: rgba(240,248,255,0.95); overflow: auto; border: 1px solid #000022; box-shadow: 0px 8px 16px 0px rgba(134,197,216,0.4); display: block; text-align: center; font-size: 14px;"></div>
+
+<div id="extraDetail" style="width: 30em; height: 20em; position: absolute; z-index: 30; top: 0; right: 0; bottom: 0; left: 0; margin: auto; text-align: left; padding: 4px; background-color: rgba(240,248,255,0.95); overflow: auto; border: 1px solid #000022; box-shadow: 0px 8px 16px 0px rgba(134,197,216,0.4); display: none; resize:both;">
+
+
+<script src="lodging1773.js" type="text/javascript"></script>
+<script src="lodgingdb1773.js" type="text/javascript"></script>
+<script src="lodging1780.js" type="text/javascript"></script>
+<script src="lodgingdb1780.js" type="text/javascript"></script>
+<script src="lodging1782.js" type="text/javascript"></script>
+<script src="lodgingdb1782.js" type="text/javascript"></script>
+<script src="lodging1784.js" type="text/javascript"></script>
+<script src="lodgingdb1784.js" type="text/javascript"></script>
+<script src="lodging1785.js" type="text/javascript"></script>
+<script src="lodgingdb1785.js" type="text/javascript"></script>
+<script src="lodging1787.js" type="text/javascript"></script>
+<script src="lodgingdb1787.js" type="text/javascript"></script>
+<script src="lodging1788.js" type="text/javascript"></script>
+<script src="lodgingdb1788.js" type="text/javascript"></script>
+<script src="lodging1789.js" type="text/javascript"></script>
+<script src="lodgingdb1789.js" type="text/javascript"></script>
+<script src="lodging1790.js" type="text/javascript"></script>
+<script src="lodgingdb1790.js" type="text/javascript"></script>
+<script src="lodging1791.js" type="text/javascript"></script>
+<script src="lodgingdb1791.js" type="text/javascript"></script>
+<script src="lodging1792.js" type="text/javascript"></script>
+<script src="lodgingdb1792.js" type="text/javascript"></script>
+<script src="lodging1793.js" type="text/javascript"></script>
+<script src="lodgingdb1793.js" type="text/javascript"></script>
+<script src="lodging1794.js" type="text/javascript"></script>
+<script src="lodgingdb1794.js" type="text/javascript"></script>
+<script src="lodging1795.js" type="text/javascript"></script>
+<script src="lodgingdb1795.js" type="text/javascript"></script>
+<script src="lodging1796.js" type="text/javascript"></script>
+<script src="lodgingdb1796.js" type="text/javascript"></script>
+<script src="lodging1797.js" type="text/javascript"></script>
+<script src="lodgingdb1797.js" type="text/javascript"></script>
+<script src="lodging1800.js" type="text/javascript"></script>
+<script src="lodgingdb1800.js" type="text/javascript"></script>
+<script src="lodging1802.js" type="text/javascript"></script>
+<script src="lodgingdb1802.js" type="text/javascript"></script>
+<script src="lodging1803.js" type="text/javascript"></script>
+<script src="lodgingdb1803.js" type="text/javascript"></script>
+<script src="lodging1805.js" type="text/javascript"></script>
+<script src="lodgingdb1805.js" type="text/javascript"></script>
+<script src="lodging1807.js" type="text/javascript"></script>
+<script src="lodgingdb1807.js" type="text/javascript"></script>
+
+<script>
+	var lastRoad = "";
+	var lastKey = "";
+	var dbDivState = "";
+
+	var yearList = [
+		[1773, lodgings1773],
+		[1780, lodgings1780],
+		[1782, lodgings1782],		
+		[1784, lodgings1784],
+		[1785, lodgings1785],
+		[1787, lodgings1787],
+		[1788, lodgings1788],
+		[1789, lodgings1789],
+		[1790, lodgings1790],
+		[1791, lodgings1791],
+		[1792, lodgings1792],
+		[1793, lodgings1793],
+		[1794, lodgings1794],
+		[1795, lodgings1795],
+		[1796, lodgings1796],
+		[1797, lodgings1797],
+		[1800, lodgings1800],
+		[1802, lodgings1802],
+		[1803, lodgings1803],		
+		[1805, lodgings1805],		
+		[1807, lodgings1807]
+	];
+
+	var buildingList = [
+		[1787, lodgingdb1787],
+		[1788, lodgingdb1788],
+		[1789, lodgingdb1789],
+		[1790, lodgingdb1790],
+		[1791, lodgingdb1791],			
+		[1792, lodgingdb1792],		
+		[1793, lodgingdb1793],
+		[1794, lodgingdb1794],		
+		[1795, lodgingdb1795],
+		[1796, lodgingdb1796],
+		[1797, lodgingdb1797],
+		[1800, lodgingdb1800],
+		[1802, lodgingdb1802],
+		[1803, lodgingdb1803],		
+		[1805, lodgingdb1805],		
+		[1807, lodgingdb1807]
+	];
+	
+
+	var map = L.map('map', {
+		minZoom: 0,
+		maxZoom: 3,
+		center: [0,0],
+		zoom: 1,
+		zoomSnap: 0.25,		
+		zoomDelta: 0.5,
+		wheelPxPerZoomLevel: 200,
+		crs: L.CRS.Simple
+	});
+	
+	var southWest = map.unproject([0, 2936], map.getMaxZoom()-1);
+	var northEast = map.unproject([2710, 0], map.getMaxZoom()-1);
+	var bounds = new L.LatLngBounds(southWest, northEast);
+	
+	L.imageOverlay('Bath1818.png', bounds).addTo(map);
+
+	<!--map.setMaxBounds(bounds);-->
+	map.panTo(new L.LatLng(-400, 330));
+
+clickYear(lodgings1773, lodgingdb1773);
+clickHouses();
+
+function clickYear(yearClicked, dbClicked){
+
+clearMap();
+
+var sourceDiv = document.getElementById("sourceInfo");
+switch(yearClicked) {
+	case lodgings1773:
+		sourceDiv.innerHTML = "Source: <i>The Strangers' Assistant and Guide to Bath</i> (Bath: Cruttwell, 1773), pp. 63-72.";
+		thisYear = 1773;
+		break;
+    	case lodgings1780:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1780), pp. 53-6.";
+		thisYear = 1780;
+		break;
+	case lodgings1782:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1782), pp. 68-71.";
+		thisYear = 1782;		
+		break;
+	case lodgings1784:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1784), pp. 68-71.";
+		thisYear = 1784;
+		break;
+	case lodgings1785:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1785), pp. 70-4.";
+		thisYear = 1785;
+		break;
+	case lodgings1787:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1787), pp. 71-4.";
+		thisYear = 1787;
+		break;	
+	case lodgings1788:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1788), pp. 70-3.";
+		thisYear = 1788;
+		break;	
+	case lodgings1789:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1789), pp. 71-4.";
+		thisYear = 1789;
+		break;
+	case lodgings1790:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1790), pp. 69-72.";
+		thisYear = 1790;
+		break;
+    case lodgings1791:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1791), pp. 69-73.";
+		thisYear = 1791;
+		break;
+    case lodgings1792:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1792), pp. 69-73.";
+		thisYear = 1792;
+		break;
+	case lodgings1793:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1793), pp. 69-73.";
+		thisYear = 1793;
+		break;
+	case lodgings1794:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1794), pp. 69-73.";
+		thisYear = 1794;
+		break;
+    case lodgings1795:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1795), pp. 70-4.";
+		thisYear = 1795;
+		break;
+	case lodgings1796:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1796), pp. 70-4.";
+		thisYear = 1796;
+		break;
+    case lodgings1797:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1797), pp. 71-4.";
+		thisYear = 1797;
+		break;
+    case lodgings1800:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1800), pp. 71-4.";
+		thisYear = 1800;
+		break
+    case lodgings1802:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1802), pp. 70-3.";
+		thisYear = 1802;
+		break
+	case lodgings1803:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Cruttwell, 1803), pp. 70-3.";
+		thisYear = 1803;
+		break
+    
+    case lodgings1805:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Savage, 1805), pp. 70-3.";
+		thisYear = 1805;
+		break
+    
+    case lodgings1807:
+		sourceDiv.innerHTML = "Source: <i>The New Bath Guide; or, Useful Pocket Companion</i> (Bath: Savage, 1807), pp. 70-3.";
+		thisYear = 1807;
+		break;
+};
+
+
+L.geoJson(yearClicked, {
+
+	style: function(feature) {
+	if (feature.properties.Key == lastKey) {lastRoad = feature.properties.Name};
+	if (feature.properties.Lodging < 6) {return {color: "#ffff00", weight: 4, opacity: 0.6};} else
+	if (feature.properties.Lodging < 11) {return {color: "#ffc000", weight: 4, opacity: 0.6};} else
+	if (feature.properties.Lodging < 16) {return {color: "#ff8000", weight: 4, opacity: 0.6};} else
+	if (feature.properties.Lodging < 21) {return {color: "#ff4000", weight: 4, opacity: 0.6};} else return {color: "#ff0000", weight: 4, fillOpacity: 0.4};
+
+
+        },
+
+        onEachFeature: function (feature, layer) {
+        layer.bindTooltip(feature.properties.Name + ": " + feature.properties.Lodging);
+	layer.on('click', function (e) {
+		console.log(e);
+		dbDivState = "open";
+		makeTable(feature.properties.Name, feature.properties.Key, dbClicked);
+		});
+	}
+}).addTo(map);
+
+if (lastRoad != "") {
+makeTable(lastRoad, lastKey, dbClicked);}
+
+}
+
+
+function makeTable(roadName, roadKey, roadYear){
+
+lastRoad = roadName;
+lastKey = roadKey;
+
+
+var extField = [];
+
+for (var i = 1; i < roadYear.length; i++) {
+	for (var key in roadYear[i]) {
+        	if (extField.indexOf(key) === -1) {
+			extField.push(key);
+		}
+	}
+}
+
+if (extField[1] == "Number") {
+	hasNumber = 1;
+	} else
+	hasNumber = 0;
+
+var dbTable = document.createElement("table");
+
+var tr = dbTable.insertRow(-1);
+
+for (var i = 1; i < 3; i++) {
+	var th = document.createElement("th");
+	th.innerHTML = extField[i];
+	tr.appendChild(th);
+	}
+
+
+
+
+
+for (var i = 0; i < roadYear.length; i++) {
+	
+	if (roadYear[i][extField[0]] == roadName) {
+		tr = dbTable.insertRow(-1);
+		if (hasNumber == 0) {
+		for (var j = 1; j < 3; j++) {
+			var tabCell = tr.insertCell(-1);
+			if (roadYear[i][extField[3]] == "BH") {
+				tabCell.innerHTML = "<i>" + roadYear[i][extField[j]] + "</i>";
+			} else
+			tabCell.innerHTML = roadYear[i][extField[j]];
+			}
+		} else {
+		var tabCell = tr.insertCell(-1);
+		var buildKey = roadYear[i][extField[4]];
+
+
+		
+		tabCell.innerHTML = "<a href='#' onclick='searchBuilding(&apos;" + buildKey + "&apos;)'>" + roadYear[i][extField[1]] + "</a>";
+		for (var j = 2; j < 3; j++) {
+			var tabCell = tr.insertCell(-1);
+			if (roadYear[i][extField[3]] == "BH") {
+				tabCell.innerHTML = "<i>" + roadYear[i][extField[j]] + "</i>";
+			} else
+			tabCell.innerHTML = roadYear[i][extField[j]];
+			}
+		}
+		}
+	}
+
+var dbDiv = document.getElementById("showDB");
+	dbDiv.innerHTML = "<b><h2>" + roadName + "</h2>";
+
+
+for (var i = 0; i < yearList.length; i++) {
+	var lodgingNum = 0;
+	L.geoJson(yearList[i][1], {
+		onEachFeature: function(feature, layer) {
+	        	if (feature.properties.Key == roadKey) {
+				lodgingNum = feature.properties.Lodging;
+			};
+    		} 
+	})
+	if (yearList[i][0] == thisYear) {
+		dbDiv.innerHTML += "<font color='orangered'>" + yearList[i][0] + "</font>: <img src='barchartpurpledk.png' height='12' width='" + (lodgingNum  * 3) + "'> " + lodgingNum + "<br>";
+		thisyearNum = lodgingNum;	
+		} else {
+		dbDiv.innerHTML += yearList[i][0] + ": <img src='barchartpurple.png' height='12' width='" + (lodgingNum  * 3) + "'> " + lodgingNum + "<br>"};
+
+
+}
+	
+	if (thisyearNum != 0) {
+		
+		dbDiv.innerHTML += "<br><p style='text-align:center'><i>Italic denotes boarding house</i></p></b>";	
+        dbDiv.appendChild(dbTable);
+		dbDiv.innerHTML += "<br><br>";
+	};
+	
+	if (dbDivState != "closed") {
+		dbDiv.style.display = "block";
+		dbDivState = "open";
+		var divCloser = document.getElementById("closer");
+		divCloser.style.display = "block";
+		};
+
+
+}
+
+
+function clearMap(){
+var layerIndex=0;
+map.eachLayer(function (layer) {
+
+if (layerIndex > 0)
+ {map.removeLayer(layer);};
+layerIndex++;
+});
+}
+
+
+function hidedbDiv() {
+var dbDiv = document.getElementById("showDB");
+	dbDiv.style.display = "none";
+	dbDivState = "closed";
+var divCloser = document.getElementById("closer");
+	divCloser.style.display = "none";
+
+}
+
+function searchBuilding(buildingKey) {
+var xtraDiv = document.getElementById("extraDetail");
+
+
+var buildingTable = document.createElement("table");
+
+var tr = buildingTable.insertRow(-1);
+var th = document.createElement("th");
+th.innerHTML = "Year";
+tr.appendChild(th);
+var th = document.createElement("th");
+th.innerHTML = "Name";
+tr.appendChild(th);
+
+
+
+for (var i = 0; i < buildingList.length; i++) {
+	for (var j = 0; j < buildingList[i][1].length; j++) {
+		if (buildingList[i][1][j].Key == buildingKey) {
+
+			tr = buildingTable.insertRow(-1);
+			var btabCell = tr.insertCell(-1);
+			btabCell.innerHTML = buildingList[i][0];
+			var btabCell = tr.insertCell(-1);
+			btabCell.innerHTML = buildingList[i][1][j].Name;
+			var buildingAddress = buildingList[i][1][j].Number + " " + buildingList[i][1][j].Street;
+		};
+	};
+};
+
+xtraDiv.innerHTML = "<span style='float: right;'><a href='#' onclick='hideextraDiv()' style='font-size:22px;'><i class='material-icons' style='font-size:22px;'>cancel</i></a></span><br><h2>" + buildingAddress + "</h2>";
+xtraDiv.appendChild(buildingTable);
+xtraDiv.innerHTML += "<br>";
+xtraDiv.style.display = "block";
+}
+
+function hideextraDiv() {
+var dbDiv = document.getElementById("extraDetail");
+	dbDiv.style.display = "none";
+}
+
+function clickMF() {
+
+document.getElementById('chart1773a').style.cssText = 'width: 55px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1773a.innerHTML = "150";
+document.getElementById('chart1773b').style.cssText = 'width: 45px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1773b.innerHTML = "122";
+document.getElementById('chart1780a').style.cssText = 'width: 58px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1780a.innerHTML = "180";
+document.getElementById('chart1780b').style.cssText = 'width: 42px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1780b.innerHTML = "131";
+document.getElementById('chart1782a').style.cssText = 'width: 62px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1782a.innerHTML = "213";
+document.getElementById('chart1782b').style.cssText = 'width: 38px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1782b.innerHTML = "128";
+document.getElementById('chart1784a').style.cssText = 'width: 60px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1784a.innerHTML = "209";
+document.getElementById('chart1784b').style.cssText = 'width: 40px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1784b.innerHTML = "138";
+document.getElementById('chart1785a').style.cssText = 'width: 61px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1785a.innerHTML = "221";
+document.getElementById('chart1785b').style.cssText = 'width: 39px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1785b.innerHTML = "140";
+document.getElementById('chart1787a').style.cssText = 'width: 64px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1787a.innerHTML = "219";
+document.getElementById('chart1787b').style.cssText = 'width: 35px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1787b.innerHTML = "123";
+document.getElementById('chart1788a').style.cssText = 'width: 65px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1788a.innerHTML = "218";
+document.getElementById('chart1788b').style.cssText = 'width: 35px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1788b.innerHTML = "119";
+document.getElementById('chart1789a').style.cssText = 'width: 64px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1789a.innerHTML = "220";
+document.getElementById('chart1789b').style.cssText = 'width: 36px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1789b.innerHTML = "122";
+document.getElementById('chart1790a').style.cssText = 'width: 66px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1790a.innerHTML = "241";
+document.getElementById('chart1790b').style.cssText = 'width: 34px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1790b.innerHTML = "125";
+document.getElementById('chart1791a').style.cssText = 'width: 64px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1791a.innerHTML = "245";
+document.getElementById('chart1791b').style.cssText = 'width: 36px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1791b.innerHTML = "138";
+document.getElementById('chart1792a').style.cssText = 'width: 65px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1792a.innerHTML = "249";
+document.getElementById('chart1792b').style.cssText = 'width: 35px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1792b.innerHTML = "135";
+document.getElementById('chart1793a').style.cssText = 'width: 67px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1793a.innerHTML = "282";
+document.getElementById('chart1793b').style.cssText = 'width: 33px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1793b.innerHTML = "139";
+document.getElementById('chart1794a').style.cssText = 'width: 66px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1794a.innerHTML = "280";
+document.getElementById('chart1794b').style.cssText = 'width: 34px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1794b.innerHTML = "143";
+document.getElementById('chart1795a').style.cssText = 'width: 66px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1795a.innerHTML = "269";
+document.getElementById('chart1795b').style.cssText = 'width: 34px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1795b.innerHTML = "139";
+document.getElementById('chart1796a').style.cssText = 'width: 68px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1796a.innerHTML = "293";
+document.getElementById('chart1796b').style.cssText = 'width: 32px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1796b.innerHTML = "138";
+document.getElementById('chart1797a').style.cssText = 'width: 68px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1797a.innerHTML = "308";
+document.getElementById('chart1797b').style.cssText = 'width: 32px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1797b.innerHTML = "143";
+document.getElementById('chart1800a').style.cssText = 'width: 71px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1800a.innerHTML = "336";
+document.getElementById('chart1800b').style.cssText = 'width: 29px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1800b.innerHTML = "133";
+document.getElementById('chart1802a').style.cssText = 'width: 67px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1802a.innerHTML = "316";
+document.getElementById('chart1802b').style.cssText = 'width: 33px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1802b.innerHTML = "156";
+document.getElementById('chart1803a').style.cssText = 'width: 67px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1803a.innerHTML = "312";
+document.getElementById('chart1803b').style.cssText = 'width: 33px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1803b.innerHTML = "153";
+document.getElementById('chart1805a').style.cssText = 'width: 70px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1805a.innerHTML = "331";
+document.getElementById('chart1805b').style.cssText = 'width: 30px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1805b.innerHTML = "143";
+document.getElementById('chart1807a').style.cssText = 'width: 69px; background: green; color: white; display: inline-block; padding: 2px;';
+chart1807a.innerHTML = "326";
+document.getElementById('chart1807b').style.cssText = 'width: 31px; background: orange; color: black; display: inline-block; text-align: right; padding: 2px;';
+chart1807b.innerHTML = "144";
+
+}
+
+
+function clickHouses() {
+
+document.getElementById('chart1773a').style.cssText = 'width: 54px; background: purple; color: white; display: inline-block; padding: 2px;';
+chart1773a.innerHTML = "273";
+document.getElementById('chart1773b').style.cssText = 'display: none;';
+chart1773b.innerHTML = "";
+
+document.getElementById('chart1780a').style.cssText = 'width: 62px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1780a.innerHTML = "312";
+document.getElementById('chart1780b').style.cssText = 'display: none;';
+chart1780b.innerHTML = "";
+
+document.getElementById('chart1782a').style.cssText = 'width: 68px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1782a.innerHTML = "342";
+document.getElementById('chart1782b').style.cssText = 'display: none;';
+chart1782b.innerHTML = "";
+
+document.getElementById('chart1784a').style.cssText = 'width: 70px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1784a.innerHTML = "347";
+document.getElementById('chart1784b').style.cssText = 'display: none;';
+chart1784b.innerHTML = "";
+
+document.getElementById('chart1785a').style.cssText = 'width: 72px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1785a.innerHTML = "362";
+document.getElementById('chart1785b').style.cssText = 'display: none;';
+chart1785b.innerHTML = "";
+
+document.getElementById('chart1787a').style.cssText = 'width: 68px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1787a.innerHTML = "343";
+document.getElementById('chart1787b').style.cssText = 'display: none;';
+chart1787b.innerHTML = "";
+
+document.getElementById('chart1788a').style.cssText = 'width: 68px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1788a.innerHTML = "338";
+document.getElementById('chart1788b').style.cssText = 'display: none;';
+chart1788b.innerHTML = "";
+
+document.getElementById('chart1789a').style.cssText = 'width: 68px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1789a.innerHTML = "343";
+document.getElementById('chart1789b').style.cssText = 'display: none;';
+chart1789b.innerHTML = "";
+
+document.getElementById('chart1790a').style.cssText = 'width: 73px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1790a.innerHTML = "367";
+document.getElementById('chart1790b').style.cssText = 'display: none;';
+chart1790b.innerHTML = "";
+
+document.getElementById('chart1791a').style.cssText = 'width: 77px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1791a.innerHTML = "384";
+document.getElementById('chart1791b').style.cssText = 'display: none;';
+chart1791b.innerHTML = "";
+
+document.getElementById('chart1792a').style.cssText = 'width: 77px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1792a.innerHTML = "385";
+document.getElementById('chart1792b').style.cssText = 'display: none;';
+chart1792b.innerHTML = "";
+
+document.getElementById('chart1793a').style.cssText = 'width: 84px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1793a.innerHTML = "422";
+document.getElementById('chart1793b').style.cssText = 'display: none;';
+chart1793b.innerHTML = "";
+
+document.getElementById('chart1794a').style.cssText = 'width: 84px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1794a.innerHTML = "424";
+document.getElementById('chart1794b').style.cssText = 'display: none;';
+chart1794b.innerHTML = "";
+
+document.getElementById('chart1795a').style.cssText = 'width: 82px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1795a.innerHTML = "408";
+document.getElementById('chart1795b').style.cssText = 'display: none;';
+chart1795b.innerHTML = "";
+
+document.getElementById('chart1796a').style.cssText = 'width: 86px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1796a.innerHTML = "431";
+document.getElementById('chart1796b').style.cssText = 'display: none;';
+chart1796b.innerHTML = "";
+
+document.getElementById('chart1797a').style.cssText = 'width: 90px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1797a.innerHTML = "451";
+document.getElementById('chart1797b').style.cssText = 'display: none;';
+chart1797b.innerHTML = "";
+
+document.getElementById('chart1800a').style.cssText = 'width: 94px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1800a.innerHTML = "472";
+document.getElementById('chart1800b').style.cssText = 'display: none;';
+chart1800b.innerHTML = "";
+
+document.getElementById('chart1802a').style.cssText = 'width: 94px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1802a.innerHTML = "472";
+document.getElementById('chart1802b').style.cssText = 'display: none;';
+chart1802b.innerHTML = "";
+
+document.getElementById('chart1803a').style.cssText = 'width: 93px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1803a.innerHTML = "467";
+document.getElementById('chart1803b').style.cssText = 'display: none;';
+chart1803b.innerHTML = "";
+
+document.getElementById('chart1805a').style.cssText = 'width: 94px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1805a.innerHTML = "474";
+document.getElementById('chart1805b').style.cssText = 'display: none;';
+chart1805b.innerHTML = "";
+
+document.getElementById('chart1807a').style.cssText = 'width: 94px; background: purple; color: white; display: inline-block;  padding: 2px;';
+chart1807a.innerHTML = "470";
+document.getElementById('chart1807b').style.cssText = 'display: none;';
+chart1807b.innerHTML = "";
+}
+
+</script>
+
+
+</div>
+</body>
+</html>
