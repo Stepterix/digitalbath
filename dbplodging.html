@@ -106,17 +106,16 @@
 	</div>
 
 
-<div id="showDB" style="position: absolute; z-index: 22; width: 425px; top: 40px; right: 0px; bottom: 0px;  text-align: left; padding: 18px; background-color: rgba(230,248,255,0.9); overflow: auto; border: 1px solid #000022; display: none;"></div>
-<div id="closer" style="position: absolute; z-index: 23; top: 45px; right: 14px; background-color: rgba(230,248,255,0.9); display: none;">
-<a href="#" onclick="hidedbDiv()" style="font-size:22px;"><i class="material-icons" style="font-size:22px;">cancel</i></a></div>
-
+<div id="showDB" class="ani-right" style="z-index: 22; top: 40px; width:425px; width: 425px; bottom: 0px; text-align: left; padding: 18px; background-color: rgba(230,248,255,0.9); overflow: auto; border: 1px solid #000022; display: none;">
+	
+</div>
 
 
 
 
 <div id="sourceInfo" style="width: 50em; height: 1.2em; position: absolute; z-index: 15; top: 30; right: 0; bottom: 0; left: 0; margin: auto; text-align: left; padding: 4px; background-color: rgba(240,248,255,0.95); overflow: auto; border: 1px solid #000022; box-shadow: 0px 8px 16px 0px rgba(134,197,216,0.4); display: block; text-align: center; font-size: 14px;"></div>
 
-<div id="extraDetail" style="width: 30em; height: 20em; position: absolute; z-index: 30; top: 0; right: 0; bottom: 0; left: 0; margin: auto; text-align: left; padding: 4px; background-color: rgba(240,248,255,0.95); overflow: auto; border: 1px solid #000022; box-shadow: 0px 8px 16px 0px rgba(134,197,216,0.4); display: none; resize:both;">
+<div id="extraDetail" style="width: 30em; height: fit-content; position: absolute; z-index: 30; top: 0; right: 0; bottom: 0; left: 0; margin: auto; text-align: left; padding: 4px; background-color: rgba(240,248,255,0.95); overflow: auto; border: 1px solid #000022; box-shadow: 0px 8px 16px 0px rgba(134,197,216,0.4); display: none; resize:both;">
 
 
 <script src="lodging1773.js" type="text/javascript"></script>
@@ -423,7 +422,8 @@ for (var i = 0; i < roadYear.length; i++) {
 	}
 
 var dbDiv = document.getElementById("showDB");
-	dbDiv.innerHTML = "<b><h2>" + roadName + "</h2>";
+	dbDiv.innerHTML = "<span id='closer' style='display:block; position:fixed; right:20px;'><a href='#' onclick='hidedbDiv()' style='font-size:22px;'><i class='material-icons' style='font-size:22px;'>cancel</i></a></span><br>"
+	dbDiv.innerHTML += "<b><h2>" + roadName + "</h2>";
 
 
 for (var i = 0; i < yearList.length; i++) {
@@ -447,18 +447,20 @@ for (var i = 0; i < yearList.length; i++) {
 	if (thisyearNum != 0) {
 		
 		dbDiv.innerHTML += "<br><p style='text-align:center'><i>Italic denotes boarding house</i></p></b>";	
+		
         dbDiv.appendChild(dbTable);
 		dbDiv.innerHTML += "<br><br>";
 	};
+	dbDiv.classList.remove('ani-left');
+	dbDiv.classList.add('ani-right');
+	
 	
 	if (dbDivState != "closed") {
 		dbDiv.style.display = "block";
 		dbDivState = "open";
-		var divCloser = document.getElementById("closer");
-		divCloser.style.display = "block";
 		};
-
-
+	
+	
 }
 
 
@@ -475,10 +477,11 @@ layerIndex++;
 
 function hidedbDiv() {
 var dbDiv = document.getElementById("showDB");
-	dbDiv.style.display = "none";
+	dbDiv.classList.remove('ani-right');
+	dbDiv.classList.add('ani-left');
 	dbDivState = "closed";
-var divCloser = document.getElementById("closer");
-	divCloser.style.display = "none";
+	dbDiv.innerHTML = "";
+	
 
 }
 

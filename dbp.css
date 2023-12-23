@@ -266,3 +266,20 @@ li:hover {
     -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
   mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
 }
+
+
+.ani-right{
+	
+	right:0px;
+	position:absolute;
+	animation:animateright 0.4s;
+	}
+@keyframes animateright{from{right:-500px;opacity:0} to{right:0;opacity:1}}
+
+.ani-left{
+	position:absolute;
+	animation:animateleft 0.4s;
+	
+	right:-500px;
+	}
+@keyframes animateleft{from{right:0px;opacity:1} to{right:-500px;opacity:0}}
