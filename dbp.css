@@ -269,7 +269,7 @@ li:hover {
 
 
 .ani-right{
-	
+	display: block;
 	right:0px;
 	position:absolute;
 	animation:animateright 0.4s;
@@ -279,7 +279,7 @@ li:hover {
 .ani-left{
 	position:absolute;
 	animation:animateleft 0.4s;
-	
+	display: none;
 	right:-500px;
 	}
 @keyframes animateleft{from{right:0px;opacity:1} to{right:-500px;opacity:0}}
